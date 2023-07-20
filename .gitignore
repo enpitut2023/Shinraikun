@@ -1,0 +1,13 @@
+# ディレクトリ
+node_modules/
+/.vscode
+/.idea
+/dist
+/build
+
+# ファイル
+/package-lock.json
+/client/package-lock.json
+/npm-debug.log
+/.env
+/.DS_Store
