@@ -4,3 +4,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return render_template('home.html')
+
+
+@app.route('/input')
+def input():
+    return render_template('input.html')
